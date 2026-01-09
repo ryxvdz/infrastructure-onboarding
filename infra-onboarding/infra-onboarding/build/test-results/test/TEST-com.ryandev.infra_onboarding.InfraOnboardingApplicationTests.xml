@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ryandev.infra_onboarding.InfraOnboardingApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-09T12:29:52.249Z" hostname="NB-607538" time="18.549">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.ryandev.infra_onboarding.InfraOnboardingApplicationTests" time="18.549"/>
+  <system-out><![CDATA[09:29:11.536 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.ryandev.infra_onboarding.InfraOnboardingApplicationTests]: InfraOnboardingApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:29:14.596 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.ryandev.infra_onboarding.InfraOnboardingApplication for test class com.ryandev.infra_onboarding.InfraOnboardingApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.1)
+
+2026-01-09T09:29:29.050-03:00  INFO 3316 --- [infra-onboarding] [    Test worker] c.r.i.InfraOnboardingApplicationTests    : Starting InfraOnboardingApplicationTests using Java 21.0.9 with PID 3316 (started by ryandias in /mnt/c/Users/ryan.dias/Downloads/infra-onboarding/infra-onboarding)
+2026-01-09T09:29:29.060-03:00  INFO 3316 --- [infra-onboarding] [    Test worker] c.r.i.InfraOnboardingApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-01-09T09:29:51.965-03:00  INFO 3316 --- [infra-onboarding] [    Test worker] c.r.i.InfraOnboardingApplicationTests    : Started InfraOnboardingApplicationTests in 31.369 seconds (process running for 56.172)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/home/ryandias/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.8/f09415827a71be7ed621c7bd02550678f28bc81c/byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
