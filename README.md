@@ -1,15 +1,14 @@
-#  Projeto InfraOnboarding – Spring Boot + Terraform + AWS
+# Project – Spring Boot + Terraform + AWS
 
-Este projeto demonstra uma integração básica entre **Spring Boot**, **Docker**, **Terraform** e **AWS EC2**.  
-A aplicação expõe um único endpoint REST `GET /time` que retorna a **data e hora atuais** do servidor.  
-A infraestrutura é provisionada por **Terraform**, que cria uma instância EC2 e executa o container
-publicado no **Docker Hub**.
+This project demonstrates basic integration between **Spring Boot**, **Docker**, **Terraform**, and **AWS EC2**.  
+The application exposes a single REST endpoint `GET /time` that returns the **current date and time**.  
+The infrastructure is provisioned using **Terraform**, which creates an EC2 instance and runs the Docker image published on **Docker Hub**.
 
 ---
 
-##  Arquitetura
+## Architecture
 
 ```text
-[Usuário] ---> [AWS EC2] ---> [Container Docker: Spring API]
-                      ↑
-                  [Terraform]
+[User] ---> [AWS EC2] ---> [Docker Container: Spring API]
+                     ↑
+                 [Terraform]
